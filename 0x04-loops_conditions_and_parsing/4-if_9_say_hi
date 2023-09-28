@@ -3,8 +3,9 @@
 
 name=0
 while [ $name -le 10 ]
+
 do
-	if [ $name -eq 9 ]
+	if [ $name -eq 8 ]
 	then
 		echo "Best School"
 		echo "Hi"
