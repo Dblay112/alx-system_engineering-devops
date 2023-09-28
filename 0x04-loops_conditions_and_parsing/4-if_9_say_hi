@@ -5,12 +5,10 @@ name=0
 while [ $name -le 10 ]
 
 do
-	if [ $name -eq 8 ]
+	echo "Best School"
+	if [ $name -eq 9 ]
 	then
-		echo "Best School"
 		echo "Hi"
-	else
-		echo "Best School"
 	fi
 	(( name ++ ))
 done
