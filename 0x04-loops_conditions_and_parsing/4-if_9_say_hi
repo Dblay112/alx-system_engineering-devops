@@ -2,7 +2,7 @@
 #script dsiplaying "Best School 10 times, but for the 9th iteration, displays "Best School" and "Hi" on a new line.
 
 name=0
-while [ $name -lt 10 ]
+while [ $name -le 10 ]
 do
 	if [ $name -eq 9 ]
 	then
