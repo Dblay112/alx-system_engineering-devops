@@ -1,2 +1,5 @@
 #!/usr/bin/env ruby
-puts ARGV[0].scan(/Holberton/).join
+if ARGV.length == 1
+  puts ARGV[0].scan(/School/).join("")
+  exit
+end
