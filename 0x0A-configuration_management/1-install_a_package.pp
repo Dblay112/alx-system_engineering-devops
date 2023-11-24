@@ -1,5 +1,5 @@
 #!/usr/bin/pup
-# puppet script to grab puppet-lint
+# puppet to grab flask
 package {'flask':
   ensure   => '2.1.0',
   provider => 'pip3'
