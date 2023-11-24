@@ -1,3 +1,4 @@
+#!/usr/bin/pup
 # puppet script to grab puppet-lint
 package { 'flask':
   ensure   => '2.1.0',
