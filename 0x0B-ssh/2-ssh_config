@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# docs heres
+# docs here
 Host 52.3.242.149
 	PasswordAuthentication no
 	IdentityFile ~/.ssh/school
