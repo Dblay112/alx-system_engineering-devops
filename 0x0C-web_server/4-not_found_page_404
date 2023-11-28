@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# not_found_page_404
+# not_found_page_404s
 sudo apt-get update -y
 sudo apt-get install -y nginx
 sudo echo "Hello World!" | sudo tee /var/www/html/index.html
