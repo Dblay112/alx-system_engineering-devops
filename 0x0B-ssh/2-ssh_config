@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-# docs here
 # configuration file, and defaults at the end.
 
 # Site-wide defaults for some commonly used options.  For a comprehensive
