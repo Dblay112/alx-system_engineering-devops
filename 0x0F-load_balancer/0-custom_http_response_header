@@ -1,4 +1,5 @@
-ckage and install nginx
+#!/usr/bin/env bash
+# update app and install nginx
 
 server_name=$(hostname)
 sudo apt-get update -y
