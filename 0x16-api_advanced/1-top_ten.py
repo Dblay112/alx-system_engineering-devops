@@ -14,7 +14,8 @@ def top_ten(subreddit):
     headers = {
         "User-Agent": "linux:0x16.api.advanced:v1.0.0 (by /u/dblay112_)"
     }
-    response = requests.get(url, headers=headers, params={'limit': 10}, allow_redirects=False)
+    response = requests.get(url, headers=headers, params={'limit': 10},
+                            allow_redirects=False)
     if response.status_code == 200:
         data = response.json()
         results = data["data"]["children"]
