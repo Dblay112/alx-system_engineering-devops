@@ -6,9 +6,9 @@ import requests
 
 def number_of_subscribers(subreddit):
     """returns the total number of subscribers"""
-    url = f"https://www.reddit.com/r/{subreddit}/about.json"  # Fix the URL
+    url = "https://www.reddit.com/r/{}/about.json".format(subreddit)"
     headers = {
-        "User-Agent": "linux:0x16.api.advanced:v1.0.0 (by /u/dblay112_)"
+        headers={'User-Agent': 'MyChromeBook'})
     }
     response = requests.get(url, headers=headers, allow_redirects=False)
     if response.status_code == 404:
